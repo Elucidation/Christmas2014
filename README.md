@@ -3,8 +3,10 @@ PSA: This is Sam's solution attempt of the christmas challenge (SamSolutionAttem
 ```
 >> SamSolutionAttempt
 Elapsed time is 0.619949 seconds.
-Secret message: check in the couch
+Secret message: ***
 ```
+
+>! The answer is in the [previous commit](https://github.com/Elucidation/Christmas2014/tree/2707bf2a5b18ae99d2d1e4787ad1fbe2b7829904) if you want to see it
 
 ---
 
