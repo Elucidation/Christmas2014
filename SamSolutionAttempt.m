@@ -12,4 +12,4 @@ randomCharMap = imread('randomCharMap.bmp');
 % Find position of first template
 template = imread('template01.bmp');
 [r,c] = findTemplateInImage(codedImage, template);
-secret_letter = char( randomCharMap(r,c) + 96 )
+secret_letter = char( randomCharMap(r,c) + 96 );

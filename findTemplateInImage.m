@@ -7,8 +7,8 @@ tmp_size = size(tmp,1);
 %% Search for perfect match of template in image
 for i = 1:img_size-tmp_size
     for j = 1:img_size-tmp_size
-        %% All pixels must match
-        if all(all(img(i:i+tmp_size-1,j:j+tmp_size-1) == tmp))
+        %% All pixels must match (sanity check with first to reduce time)
+        if img(i,j) == tmp(1) && all(all(img(i:i+tmp_size-1,j:j+tmp_size-1) == tmp))
             %% Get location from index
             r = i;
             c = j;
