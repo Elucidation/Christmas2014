@@ -10,6 +10,13 @@ randomCharMap = imread('randomCharMap.bmp');
 
 
 % Find position of first template
-template = imread('template01.bmp');
-[r,c] = findTemplateInImage(codedImage, template);
-secret_letter = char( randomCharMap(r,c) + 96 );
+message = '';
+for i = 1:18
+    % Load template
+    template = imread(sprintf('template%02d.bmp', i));
+    % Find template location in image
+    [r,c] = findTemplateInImage(codedImage, template);
+    % Map to randomCharMap and add character to message
+    message = strcat(message, char(randomCharMap(r,c) + 96 ));
+end
+fprintf('Secret message: %s\n', message);
