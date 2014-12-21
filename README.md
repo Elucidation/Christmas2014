@@ -1,3 +1,7 @@
+PSA: This is Sam's solution attempt of the christmas challenge (SamSolutionAttempt.m)
+
+---
+
 Welcome to the Christmas Challange!
 
 Each year, my family codes our gifts, so you have to solve a series of riddles to find out which gift is yours.
