@@ -16,8 +16,11 @@ Now, here is the key. Each template image matches exactly to a 16x16 square some
 Now, what can we do from that? I have also provided another image, 'randomCharMap.bmp.' This basically hosts values from 0 - 26. These are representative of character values. The mapping is as such:
 
 ' ' : 0
+
 'a' : 1
+
 'b' : 2
+
 'c' : 3
 
 and so on...
