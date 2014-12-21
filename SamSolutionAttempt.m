@@ -6,6 +6,7 @@ codedImage = imread('coded_image.bmp');
 randomCharMap = imread('randomCharMap.bmp');
 
 %% Do stuff
+tic
 message = '';
 for i = 1:18
     % Load template
@@ -17,6 +18,6 @@ for i = 1:18
 end
 % Replace ` with spaces
 message = strrep(message,'`', ' '); 
-
+toc
 %% Display secret message
 fprintf('Secret message: %s\n', message);

@@ -1,5 +1,11 @@
 PSA: This is Sam's solution attempt of the christmas challenge (SamSolutionAttempt.m)
 
+```
+>> SamSolutionAttempt
+Elapsed time is 0.619949 seconds.
+Secret message: check in the couch
+```
+
 ---
 
 Welcome to the Christmas Challange!
